@@ -6,6 +6,8 @@ is-detailed: true
 
 ---
 
+# WARNING: This section has not been updated for Pugh Lab use
+
 <div id="toc">
 Table of Contents
 <ol>
