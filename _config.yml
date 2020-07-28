@@ -9,7 +9,7 @@ codeurl: 'https://github.com/miso-lims/miso-lims'
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
-baseurl: '/walkthroughs'
+baseurl: '/pughlab-training'
 
 # URL to your MISO instance for the training tutorial
 miso_url: 'http://miso.gsi.oicr.on.ca'
