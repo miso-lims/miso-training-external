@@ -6,7 +6,7 @@ is-detailed: true
 
 ---
 
-# WARNING: This section has not been updated for Pugh Lab use
+# WARNING: This section has not been updated for external use
 
 <div id="toc">
 Table of Contents

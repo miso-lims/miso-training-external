@@ -1,7 +1,7 @@
 # Site title and subtitle
 title: 'MISO'
 subtitle: 'An open-source LIMS for NGS sequencing centres'
-miso_flavour: 'Pugh Lab'
+miso_flavour: 'PMGC'
 miso_colour: 'rgb(56,121,59)'
 
 # URL to source code
@@ -9,27 +9,27 @@ codeurl: 'https://github.com/miso-lims/miso-lims'
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
-baseurl: '/pughlab-training'
+baseurl: '/miso-training-external'
 
 # URL to your MISO instance for the training tutorial
-miso_url: 'http://205.210.128.25:8086'
+miso_url: 'https://misodev.pmgenomics.ca'
 
 # Configuration for important site-specific values used in the tutorials. Make
 # sure these match existing items in your MISO instance.
-pipeline: 'Research'
-box_size: '10x10 Storage'
-sequencer: 'NovaSeq'
+pipeline: 'Default'
+box_size: '8x12 Storage (scannable)'
+sequencer: 'A00827'
 platform: 'NovaSeq 6000'
 platform_type: 'Illumina'
-reference_genome: 'hg19'
-scientific_name: 'Homo sapiens'
-detailed_qc_status_good: 'Ready'
-detailed_qc_status_pending: 'Not Ready'
-library_type: 'Paired End'
-index_kit: 'Nextera Dual Index'
-flowcell: 'S4 Flow cell'
-seq_params: '2x250'
-run_scanner_run: '220120_A00469_0263_AH3YMFDSX3'
+reference_genome: 'GRCh38'
+scientific_name: 'Homo Sapiens'
+detailed_qc_status_good: 'Ready to proceed'
+detailed_qc_status_pending: 'Pending: Sample Prep'
+library_type: 'Paired-End Sequencing'
+index_kit: 'Nextera DNA Dual Index'
+flowcell: 'S4'
+seq_params: '2x151'
+run_scanner_run: '220405_A00827_0544_AHHLY7DSX3'
 lane_qc_bad: 'Failed: Other problem'
 
 # values only affecting plain sample mode
@@ -40,18 +40,17 @@ plain_sample3_alias: 'PROJ_S03_0001'
 plain_sample6_alias: 'PROJ_S06_0001'
 
 # values only affecting detailed sample mode
-identity_class: 'Human'
+identity_class: 'Customer Submission'
 tissue_class: 'Tissue'
-slide_class: 'Slides'
-stock_class: 'gDNA'
-aliquot_class: 'gDNA (aliquot)'
-tissue_origin_1: 'Bl (Peripheral Blood)'
+slide_class: 'Slide'
+stock_class: 'Targeted gDNA'
+aliquot_class: 'Targeted gDNA(aliquot)'
+tissue_origin_1: 'Bl (Blood)'
 tissue_origin_2: 'Lv (Liver)'
 tissue_origin_3: 'Ov (Ovaries)'
-tissue_origin_4: 'Br (Brain)'
-tissue_type_1: 'RTT (Reference)'
-tissue_type_2: 'PTT (Primary Tumour)'
-detailed_qc_status_good: 'Ready'
+tissue_origin_4: 'Bn (Brain)'
+tissue_type_1: 'PDO (Patient Derived Organoid)'
+tissue_type_2: 'PDX (Patient Derived Xenograft)'
 
 # values for Oxford Nanopore tutorial
 ont_sequencer: 'MN16303'
