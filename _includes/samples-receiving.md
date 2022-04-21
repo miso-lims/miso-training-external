@@ -29,6 +29,7 @@
        appear in the dropdown, you may need to refresh the page and re-enter the above
        information. It can sometimes take a few minutes for the new subproject option
        to become available.
+    1. _Sample Class_: `{{ site.tissue_class }}`
 {% endif %}
     1. _Sample Type_: select `GENOMIC` from the drop down.
     1. _Scientific Name_: `{{ site.scientific_name }}`.

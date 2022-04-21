@@ -29,7 +29,8 @@ In this section, you will use the samples created already to create libraries.
     * _SOP_: Choose any value if required.
     * _Thermal Cycler_: Choose any value if required.
 {% if include.detailed == true %}
-    * _Design_: Select any
+    * _Design_: Select any. If no design options are available, select any
+      value for the _Code_, _Selection_, and _Strategy_ columns instead.
 {% endif %}
     * _Platform_: `{{ site.platform_type }}`
     * _Type_: `{{ site.library_type }}`
@@ -52,6 +53,3 @@ In this section, you will use the samples created already to create libraries.
 {% endif %}
 1. Choose _Save_. Record the Library aliases and barcodes in your worksheet.
    <img src="pics/blue_pencil.png">
-
-Note that for dual-index libraries, only the first index needs to be
-specified. The second is optional.

@@ -92,7 +92,7 @@ donor `PROJ_ID1`.
        blank.
     1. _Material_: Select any from the drop-down.
     1. _Timepoint_: `T1`
-    1. _QC Status_: select `Ready` from the drop down.
+    1. _QC Status_: select `{{ site.detailed_qc_status_good }}` from the drop down.
 1. At the upper right hand side, click _Save_.
 
 Upon saving, a number of fields will be filled in, including the sample ID, name, and alias. The name will be in the
@@ -280,7 +280,7 @@ part 2.4 of this tutorial.
    sections 2.4 and 3.2.
 1. Click the _Edit_ button at the top left of the table.
 1. Add a _Concentration_ value: any number
-1. Change the _QC Status_ column to `Ready` for all rows.
+1. Change the _QC Status_ column to `{{ site.detailed_qc_status_good }}` for all rows.
 1. Enter a _Matrix Barcode_ for the stock entered in section 2.4. If you weren't given a
    barcode to use, enter `PROJ-401`, replacing `PROJ` with your project's short name. Record
    the barcode on your worksheet. <img src="pics/blue_pencil.png">

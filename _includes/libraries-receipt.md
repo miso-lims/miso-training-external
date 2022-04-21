@@ -45,7 +45,8 @@ if they match the data entered.
     * _Received By_: Select any group.
     * _Matrix Barcode_: Enter `PROJ_lib5`, replacing `PROJ` with your own project short name.
 {% if include.detailed == true %}
-    * _Design_: Select any.
+    * _Design_: Select any. If no design options are available, select any
+      value for the _Code_, _Selection_, and _Strategy_ columns instead.
 {% endif %}
     * _Platform_: `{{include.platform}}`
     * _Type_: `{{include.type}}`
